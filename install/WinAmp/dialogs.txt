@@ -1,0 +1,16 @@
+[Dialog Colors]
+dialog_color_bg=#D6CFBD
+dialog_color_fg=#423C31
+dialog_color_textcolor=#423C31
+dialog_color_lbback=#FFFFFF
+dialog_color_buttontext=#423C31
+dialog_color_buttontext_sel=#423C31
+
+dialog_color_button_up_0=#D6CFBD
+dialog_color_button_up_1=#FFFFFF
+dialog_color_button_up_2=#808080
+dialog_color_button_up_3=#808080
+dialog_color_button_up_4=#423C31
+
+dialog_color_button_down_0=#D6CFBD
+dialog_color_button_down_1=#D6CFBD

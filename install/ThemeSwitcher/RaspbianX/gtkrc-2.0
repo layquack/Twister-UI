@@ -1,0 +1,13 @@
+style "my-launchers"
+{
+    xthickness = 6
+    ythickness = 6
+}
+widget "*launcher*" style "my-launchers"
+
+style "my-tasklist"
+{
+    xthickness = 6
+    ythickness = 6
+}
+widget "*tasklist*" style "my-tasklist"

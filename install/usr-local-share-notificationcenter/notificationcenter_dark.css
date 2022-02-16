@@ -1,0 +1,174 @@
+/*
+* Copyright (c) 2011-2020 NotificationCenter
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public
+* License as published by the Free Software Foundation; either
+* version 2 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA
+*
+* Authored by: Kris Henriksen <krishenriksen.work@gmail.com>
+*/
+
+.notificationcenter {
+
+}
+
+/* Today Widgets */
+.notificationcenter .today_date {
+	margin: 20px;
+	color: rgba(162, 162, 162, 1);
+	font-size: 25px;
+}
+
+.notificationcenter .today_box_horizontal {
+	min-width: 290px;
+	margin: 10px 10px 0 10px;
+	background: rgba(30, 30, 30, 1);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.notificationcenter .today_box_horizontal .today_image {
+	margin: 5px 0 5px 10px;
+}
+
+.notificationcenter .today_box_horizontal .today_app_name {
+	margin: 5px 0 5px 10px;
+	color: rgba(151, 151, 151, 1);
+	text-shadow: none;
+	background: none;
+	font-weight: 500;
+}
+
+.notificationcenter .today_box_body {
+	min-width: 290px;
+	margin: 0 10px 0 10px;
+	padding: 15px 15px 15px 15px;
+	background: rgba(40, 40, 40, 1);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.notificationcenter .today_box_body button {
+	color: #ffffff;
+	background: rgba(33, 33, 33, 1);
+}
+
+.notificationcenter .calendar label {
+	color: rgba(151, 151, 151, 1);
+	background: rgba(40, 40, 40, 1);
+}
+
+.notificationcenter .nowplaying label {
+	color: rgba(151, 151, 151, 1);
+	background: rgba(40, 40, 40, 1);
+}
+
+/* clock */
+.notificationcenter .clock .today_box_body_clock_widget {
+	margin-left: 15px;
+	background: none;
+}
+
+/* Notifications */
+.notificationcenter box {
+	background: rgba(20, 20, 20, 1);
+}
+
+.notificationcenter toolbar {
+	padding: 15px 25px 15px 25px;
+	background: rgba(20, 20, 20, 1);
+}
+
+.notificationcenter toolbar button {
+	border: 0;
+	color: rgba(255, 255, 255, 1);
+	background: rgba(94, 94, 94, 1);
+	min-width: 128px;
+	text-shadow: none;
+	border-radius: 0;
+}
+
+.notificationcenter toolbar button:active {
+	color: #353535;
+	background: rgba(215, 215, 215, 1);
+}
+
+.notificationcenter toolbar .active button {
+	color: rgba(36, 36, 36, 1);
+	background: rgba(178, 178, 178, 1);
+}
+
+.notificationcenter .notification_box_horizontal {
+	margin: 10px 30px 0 10px;
+	background: rgba(40, 40, 40, 1);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.notificationcenter .notification_box_horizontal .notification_image {
+	margin: 5px 0 5px 10px;
+}
+
+.notificationcenter .notification_box_horizontal .notification_app_name {
+	margin: 5px 0 5px 10px;
+	color: rgba(222, 222, 222, 1);
+	text-shadow: none;
+}
+
+.notificationcenter .notification_box_horizontal .notification_date {
+	margin: 5px 0 5px 10px;
+	color: rgba(222, 222, 222, 1);
+}
+
+.notificationcenter .notification_box_summary {
+	margin: 0 30px 0 10px;
+	background: rgba(30, 30, 30, 1);
+}
+
+.notificationcenter .notification_box_summary .notification_summary {
+	color: rgba(255, 255, 255, 1);
+	padding: 10px 15px 0px 15px;
+	text-shadow: none;
+}
+
+.notificationcenter .notification_box_body {
+	margin: 0 30px 0 10px;
+	padding: 0 15px 15px 15px;
+	background: rgba(30, 30, 30, 1);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.notificationcenter .notification_box_body .notification_body {
+	color: rgba(154, 154, 154, 1);
+}
+
+.notificationcenter .notification_box_body .notification_body label {
+	color: rgba(154, 154, 154, 1);
+	background: rgba(30, 30, 30, 1);
+}
+
+.notificationcenter .bottombar button {
+	color: #ffffff;
+	background: rgba(33, 33, 33, 1);
+}
+
+.notificationcenter .bottombar button:active {
+	color: #ffffff;
+	background: rgba(15, 15, 15, 1);
+}
+
+.notificationcenter .bottombar .settings_button button {
+	background: none;
+}

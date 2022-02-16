@@ -1,0 +1,49 @@
+#pulseaudio-button * { -gtk-icon-transform: scale(.55); }
+#xfce4-power-manager-plugin * { -gtk-icon-transform: scale(.50); }
+#xfce4-notification-plugin * { -gtk-icon-transform: scale(.50); }
+
+#whiskermenu-window {
+    background-color: #191919;
+    color: #fff;
+}
+#whiskermenu-window button {
+    color: #fff;
+}
+#whiskermenu-window button:hover {
+    background-color: #505050;
+    color: #fff;
+}
+#whiskermenu-window button:checked {
+    background-color: #505050;
+    color: #fff;
+}
+#whiskermenu-window treeview {
+    background-color: #202020;
+    color: #fff;
+}
+#whiskermenu-window treeview:hover {
+    background-color: #505050;
+    color: #fff;
+}
+#whiskermenu-window border {
+    border-color: #333333;
+}
+#whiskermenu-window separator {
+    background-color: #333333;
+}
+
+.xfce4-panel.panel button.flat:hover, .xfce4-panel.panel button.sidebar-button:hover {
+    background-color: #505050;
+}
+.xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.sidebar-button:active {
+    background-image: url('/usr/share/themes/Windows-10/gtk-3.0/panel/item-active.svg');
+}
+.xfce4-panel.panel button.flat:checked, .xfce4-panel.panel button.sidebar-button:checked {
+    background-image: url('/usr/share/themes/Windows-10/gtk-3.0/panel/item-active.svg');
+}
+
+XfdesktopIconView.view {
+  color: #fff;
+  text-shadow: 0 3px 3px #000;
+}
+

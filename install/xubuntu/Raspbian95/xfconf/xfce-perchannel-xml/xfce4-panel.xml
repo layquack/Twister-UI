@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=960;y=1064"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-alpha" type="uint" value="100"/>
+      <property name="enter-opacity" type="empty"/>
+      <property name="leave-opacity" type="empty"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="5"/>
+        <value type="int" value="20"/>
+        <value type="int" value="8"/>
+        <value type="int" value="1"/>
+        <value type="int" value="13"/>
+        <value type="int" value="10"/>
+        <value type="int" value="2"/>
+        <value type="int" value="23"/>
+        <value type="int" value="3"/>
+        <value type="int" value="15"/>
+        <value type="int" value="22"/>
+        <value type="int" value="31"/>
+        <value type="int" value="32"/>
+        <value type="int" value="4"/>
+        <value type="int" value="6"/>
+      </property>
+      <property name="background-color" type="array">
+        <value type="uint" value="0"/>
+        <value type="uint" value="0"/>
+        <value type="uint" value="0"/>
+        <value type="uint" value="65535"/>
+      </property>
+      <property name="icon-size" type="uint" value="22"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16032329781.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16170827551.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="tasklist">
+      <property name="items" type="empty"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="grouping" type="uint" value="0"/>
+      <property name="sort-order" type="uint" value="4"/>
+    </property>
+    <property name="plugin-4" type="string" value="pulseaudio">
+      <property name="items" type="empty"/>
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance12364;chromium.instance1575;chromium.instance2095;chromium.instance2203;chromium.instance2482;chromium.instance2623;chromium.instance3319;chromium.instance917;chromium.instance918;chromium.instance923;chromium.instance965;vlc"/>
+    </property>
+    <property name="plugin-5" type="string" value="applicationsmenu">
+      <property name="items" type="empty"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="button-title" type="string" value="Start"/>
+      <property name="button-icon" type="string" value="/usr/share/icons/Windows-95/Raspbian95Xfce.png"/>
+    </property>
+    <property name="plugin-7" type="string" value="xfce4-orageclock-plugin">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-8" type="string" value="showdesktop">
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="empty"/>
+    </property>
+    <property name="plugin-9" type="empty"/>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15901355962.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="empty"/>
+    <property name="plugin-12" type="empty">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+    </property>
+    <property name="plugin-13" type="string" value="launcher">
+      <property name="digital-format" type="empty"/>
+      <property name="items" type="array">
+        <value type="string" value="15901358795.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-23" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-31" type="string" value="power-manager-plugin"/>
+    <property name="plugin-32" type="string" value="statusnotifier">
+      <property name="known-items" type="array">
+        <value type="string" value="nm-applet"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="icon-size" type="int" value="16"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="true"/>
+      <property name="menu-is-primary" type="bool" value="true"/>
+    </property>
+    <property name="plugin-6" type="string" value="clock">
+      <property name="tooltip-format" type="string" value="%A, %B %e, %Y"/>
+      <property name="digital-format" type="string" value="  %l:%M %p  "/>
+    </property>
+  </property>
+</channel>

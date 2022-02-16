@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=LightPad
+GenericName=Application Launcher
+Comment=Lightweight, nice-looking, and powerful application launcher
+Categories=GNOME;GTK;Utility;
+Exec=com.github.libredeb.lightpad
+Icon=slingscold
+Terminal=false
+Type=Application
+NoDisplay=true
+StartupNotify=false

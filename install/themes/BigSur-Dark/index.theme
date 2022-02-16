@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=BigSur-Dark
+Comment=A dark theme based on macOS Big Sur
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=BigSur-Dark
+MetacityTheme=BigSur-Dark
+IconTheme=BigSur-Dark
+CursorTheme=macOS
+ButtonLayout=close,minimize,maximize:menu

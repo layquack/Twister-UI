@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Restore Twister Theme Config
+Comment=Restores the original Twister OS theme configurations
+Icon=/usr/share/ThemeSwitcher/restore-original-config.png
+Terminal=true
+Exec=/usr/share/ThemeSwitcher/Backup/restore-original-config.sh
+Categories=Settings;

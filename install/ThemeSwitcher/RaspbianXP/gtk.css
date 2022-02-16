@@ -1,0 +1,41 @@
+#pulseaudio-button * { -gtk-icon-transform: scale(.75); }
+
+#whiskermenu-button {
+    background-image: url('/usr/share/themes/Windows-XP/cinnamon/menu-box.png');
+    border-width: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font: normal 100% "Noto Sans Display";
+    font-family: Arial, Helvetica, 'Noto Sans Display', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
+}
+#whiskermenu-button:hover {
+    background-image: url('/usr/share/themes/Windows-XP/cinnamon/menu-hover.png');
+}
+#whiskermenu-button:checked {
+    background-image: url('/usr/share/themes/Windows-XP/cinnamon/menu-active.png');
+}
+#whiskermenu-window {
+    background-color: #255fdc;
+    color: #8af;
+}
+#whiskermenu-window button {
+    color: #fff;
+}
+#whiskermenu-window button:hover {
+    color: #000;
+}
+#whiskermenu-window button:checked {
+    background-color: #1a50b8;
+}
+#whiskermenu-window treeview:hover {
+    background-color: #255fdc;
+    color: #fff
+}
+
+#whiskermenu-window entry {
+    border-radius: 0px;
+    border-color: #dcd7bc
+}
+

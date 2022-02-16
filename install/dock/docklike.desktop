@@ -1,0 +1,22 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Encoding=UTF-8
+Name=Docklike Taskbar
+Comment=A modern, minimalist taskbar for XFCE
+Comment[de]=Eine moderne und minimalistische Taskleiste für XFCE
+Comment[el]=Μία σύγχρονη, μινιμαλιστική γραμμή εργασιών για το XFCE.
+Comment[es]=Una moderna y minimalista barra de tareas para XFCE
+Comment[fr]=Une barre des tâches moderne et minimaliste pour XFCE
+Comment[it]=Una Taskbar moderna e minimale per XFCE
+Comment[ja]=XFCE用のモダンで小さなタスクバー
+Comment[nl]=Een moderne, minimalistische taakbalk voor XFCE.
+Comment[pl]=Nowoczesny, minimalistyczny pasek zadań dla XFCE
+Comment[pt]=Uma barra de tarefas moderna e minimalista para o Xfce.
+Comment[pt_BR]=Uma barra de tarefas moderna e minimalista para o Xfce.
+Comment[ru]=Простая и современная панель задач для XFCE
+Comment[tr]=XFCE için modern, minimalist bir görev çubuğu.
+Icon=preferences-system-windows
+X-XFCE-Module=docklike
+X-XFCE-Internal=false
+X-XFCE-Unique=false
+X-XFCE-API=2.0

@@ -1,0 +1,11 @@
+# GIMP gimp-pencil-tool options
+
+(brush "2. Hardness 025")
+(dynamics "Dynamics Off")
+(gradient "FG to BG (RGB)")
+(palette "Standard")
+(brush-size 51)
+(brush-spacing 0.050000000000000003)
+(brush-hardness 0.25)
+
+# end of gimp-pencil-tool options

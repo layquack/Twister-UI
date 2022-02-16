@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Spotlight
+Comment=Application finder
+Icon=/usr/share/icons/Catalina-Dark/catfish-symbolic.png
+Exec=spotlight
+Categories=Utility;
+X-XFCE-Source=file:///usr/share/applications/spotlight.desktop
+Path=
+Terminal=false
+StartupNotify=false

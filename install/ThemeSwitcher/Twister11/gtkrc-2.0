@@ -1,0 +1,35 @@
+style "my-launchers"
+{
+    xthickness = 6
+    ythickness = 6
+}
+widget "*launcher*" style "my-launchers"
+
+style "my-tasklist"
+{
+    xthickness = 6
+    ythickness = 6
+}
+widget "*tasklist*" style "my-tasklist"
+
+style "xfdesktop-icon-view" {
+	XfdesktopIconView::selected-label-alpha = 255
+	XfdesktopIconView::selected-shadow-blur-radius = 0
+	XfdesktopIconView::selected-shadow-x-offset = 0
+	XfdesktopIconView::selected-shadow-y-offset = 0
+	XfdesktopIconView::selected-shadow-color = "#303030"
+
+	fg[SELECTED] = "#fff"
+}
+widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
+
+style "panel-clock-custom"
+{
+fg[NORMAL] = "#000000"
+fg[PRELIGHT] = "#FFFFFF"
+fg[ACTIVE] = "#000000"
+text[NORMAL] = "#000000"
+text[PRELIGHT] = "#000000"
+text[ACTIVE] = "#000000"
+}
+widget "Xfce*Panel*clock*" style "panel-clock-custom"

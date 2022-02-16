@@ -1,0 +1,45 @@
+#pulseaudio-button * { -gtk-icon-transform: scale(.85); -gtk-icon-style: symbolic; }
+#xfce4-power-manager-plugin * { -gtk-icon-transform: scale(.50); -gtk-icon-style: symbolic; color: white; }
+#xfce4-notification-plugin * { -gtk-icon-transform: scale(.65); -gtk-icon-style: symbolic; color: white; }
+
+#whiskermenu-button {
+    background-image: url('/usr/share/themes/Windows-7/cinnamon/menu-box.png');
+    border-width: 0;
+    border-radius: 50%;
+}
+#whiskermenu-button:hover {
+    background-image: url('/usr/share/themes/Windows-7/cinnamon/menu-hover.png');
+}
+#whiskermenu-button:checked {
+    background-image: url('/usr/share/themes/Windows-7/cinnamon/menu-active.png');
+}
+
+#whiskermenu-window {
+    background-color: #2d5c82;
+    color: #fff;
+}
+#whiskermenu-window button {
+    color: #fff;
+}
+#whiskermenu-window button:hover {
+    color: #000;
+}
+#whiskermenu-window button:checked {
+    color: #000;
+}
+
+#clock-button {
+    color: #fff;
+}
+#clock-button:hover {
+    color: #000;
+}
+#clock-button:checked {
+    color: #000;
+}
+
+XfdesktopIconView.view {
+  color: #fff;
+  text-shadow: 0 3px 3px #000;
+}
+

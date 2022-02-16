@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Catalina Dark
+Comment=A dark theme based on macOS Catalina
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Catalina-Dark
+MetacityTheme=Catalina-Dark
+IconTheme=Catalina-Dark
+CursorTheme=macOS
+ButtonLayout=close,minimize,maximize:

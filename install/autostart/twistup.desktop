@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=TwistUP
+Comment=Automatic updater for Twister UI
+Exec=twistpatch gui-autostart
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false

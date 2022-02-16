@@ -1,0 +1,25 @@
+#whiskermenu-window {
+    background-color: #444444;
+    color: #fff;
+}
+#whiskermenu-window button {
+    color: #fff;
+}
+#whiskermenu-window button:hover {
+    background-color: #F0544C;
+    color: #fff;
+}
+#whiskermenu-window button:checked {
+    background-color: #F0544C;
+    color: #fff;
+}
+#whiskermenu-window treeview:hover {
+    background-color: #F0544C;
+    color: #fff;
+}
+#whiskermenu-window border {
+    border-color: #444444;
+}
+#whiskermenu-window separator {
+    background-color: #444444;
+}

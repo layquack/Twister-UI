@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Spotlight
+Comment=Application finder
+Icon=/usr/share/icons/Catalina/catfish-symbolic.png
+Exec=spotlight
+Categories=Utility;

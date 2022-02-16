@@ -1,0 +1,18 @@
+#pulseaudio-button * { -gtk-icon-transform: scale(.40); }
+#xfce4-power-manager-plugin * { -gtk-icon-transform: scale(.45); -gtk-icon-style: symbolic; color: black; }
+#xfce4-notification-plugin * { -gtk-icon-transform: scale(.50); }
+#whiskermenu-button * { -gtk-icon-transform: scale(.90); }
+
+#whiskermenu-window button:hover {
+    background-color: #909090;
+    color: #fff;
+}
+#whiskermenu-window button:checked {
+    background-color: #909090;
+    color: #fff;
+}
+
+#clock-button {
+    color: #000;
+}
+

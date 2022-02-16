@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Hard Disk
+Comment=Explore hard disk contents
+Exec=thunar /
+Icon=/usr/share/icons/BigSur/devices/scalable/drive-harddisk.svg
+Terminal=false
+Type=Application
+StartupNotify=false

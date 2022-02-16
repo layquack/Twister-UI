@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Notification Center
+Comment=View notifications and events
+Icon=/usr/share/icons/hicolor/scalable/status/notification-symbolic.svg
+Exec=notificationcenter
+Categories=Utility;

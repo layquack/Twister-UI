@@ -1,0 +1,38 @@
+style "my-launchers"
+{
+    xthickness = 4
+    ythickness = 4
+}
+widget "*launcher*" style "my-launchers"
+
+style "my-tasklist"
+{
+    xthickness = 4
+    ythickness = 4
+}
+widget "*tasklist*" style "my-tasklist"
+
+style "xfdesktop-icon-view" {
+	XfdesktopIconView::label-alpha = 0
+	XfdesktopIconView::selected-label-alpha = 255
+	XfdesktopIconView::ellipsize-icon-labels = 1
+	XfdesktopIconView::tooltip-size = 64
+
+	XfdesktopIconView::shadow-x-offset = 0
+	XfdesktopIconView::shadow-y-offset = 1
+	XfdesktopIconView::shadow-color = "#000"
+	XfdesktopIconView::shadow-blur-radius = 4
+	XfdesktopIconView::selected-shadow-blur-radius = 0
+	XfdesktopIconView::selected-shadow-x-offset = 0
+	XfdesktopIconView::selected-shadow-y-offset = 0
+	XfdesktopIconView::selected-shadow-color = "#303030"
+	
+	fg[NORMAL] = "#fff"
+	fg[SELECTED] = "#fff"
+	fg[ACTIVE] = "#fff"
+	
+	base[NORMAL] = "#000"
+	
+	XfdesktopIconView::label-radius = 0
+}
+widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"

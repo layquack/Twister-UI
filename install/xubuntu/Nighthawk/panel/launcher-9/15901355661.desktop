@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Catfish File Search
+GenericName=File search
+Comment=Search the file system
+Keywords=files;find;locate;lookup;search;
+Categories=GNOME;GTK;Utility;
+Exec=/usr/bin/catfish %f
+Icon=catfish
+Terminal=false
+Type=Application
+MimeType=inode/directory;
+X-XFCE-Source=file:///usr/share/applications/org.xfce.Catfish.desktop

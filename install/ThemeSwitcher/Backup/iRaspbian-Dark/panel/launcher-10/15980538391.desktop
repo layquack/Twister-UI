@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Notification Center
+Comment=View notifications and events
+Icon=/usr/share/icons/Catalina-Dark/notification-symbolic.svg
+Exec=notificationcenter
+Categories=Utility;
+X-XFCE-Source=file:///usr/share/applications/notificationcenter.desktop
+Path=
+Terminal=false
+StartupNotify=false

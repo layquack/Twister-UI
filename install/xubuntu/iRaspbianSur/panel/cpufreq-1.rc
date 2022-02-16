@@ -1,0 +1,9 @@
+timeout=1
+show_cpu=0
+show_icon=false
+show_label_freq=false
+show_label_governor=true
+show_warning=true
+keep_compact=false
+one_line=false
+

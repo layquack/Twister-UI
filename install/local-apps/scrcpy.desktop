@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=My Android
+GenericName=My Android
+Comment=Powered by scrcpy
+Icon=android2
+Exec=/usr/local/bin/android.sh
+Categories=GTK;Archiving;Compression;Utility;

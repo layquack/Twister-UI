@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Restore Twister UI Splash Screen
+Comment=Restores the original Twister UI splash screen
+Icon=/usr/share/ThemeSwitcher/restore-original-config.png
+Terminal=true
+Exec=/usr/share/ThemeSwitcher/restore-twisterui-splash.sh
+Categories=Settings;

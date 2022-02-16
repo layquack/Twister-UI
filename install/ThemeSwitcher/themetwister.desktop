@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ThemeTwister
+Comment=Change your current OS theme
+Icon=/usr/share/ThemeSwitcher/themetwister.png
+Terminal=true
+Exec=/usr/share/ThemeSwitcher/ThemeTwister.sh
+Categories=Settings;

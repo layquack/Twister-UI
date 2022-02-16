@@ -1,0 +1,6 @@
+style "my-launchers"
+{
+    xthickness = 4
+    ythickness = 4
+}
+widget "*launcher*" style "my-launchers"

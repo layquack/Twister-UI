@@ -1,0 +1,50 @@
+[Desktop Entry]
+Name=Mail
+GenericName=Groupware Suite
+X-GNOME-FullName=Evolution Mail and Calendar
+Comment=Manage your email, contacts and schedule
+Keywords=email;calendar;contact;addressbook;task;
+Actions=new-window;compose;contacts;calendar;mail;memos;tasks;
+Exec=evolution %U
+Icon=evolution
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Office;Email;Calendar;ContactManagement;X-Red-Hat-Base;
+StartupNotify=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=Evolution
+X-GNOME-Bugzilla-Component=BugBuddyBugs
+X-GNOME-Bugzilla-Version=3.30.x
+X-GNOME-Bugzilla-OtherBinaries=evolution-addressbook-factory;evolution-calendar-factory;evolution-source-registry;evolution-user-prompter;
+X-GNOME-UsesNotifications=true
+X-Flatpak-RenamedFrom=evolution
+MimeType=text/calendar;text/x-vcard;text/directory;application/mbox;message/rfc822;x-scheme-handler/mailto;x-scheme-handler/webcal;x-scheme-handler/calendar;x-scheme-handler/task;x-scheme-handler/memo;
+X-XFCE-Source=file:///usr/share/applications/org.gnome.Evolution.desktop
+
+[Desktop Action new-window]
+Name=New Window
+Exec=evolution -c current
+
+[Desktop Action compose]
+Name=Compose a Message
+Exec=evolution mailto:
+
+[Desktop Action contacts]
+Name=Contacts
+Exec=evolution -c contacts
+
+[Desktop Action calendar]
+Name=Calendar
+Exec=evolution -c calendar
+
+[Desktop Action mail]
+Name=Mail
+Exec=evolution -c mail
+
+[Desktop Action memos]
+Name=Memos
+Exec=evolution -c memos
+
+[Desktop Action tasks]
+Name=Tasks
+Exec=evolution -c tasks

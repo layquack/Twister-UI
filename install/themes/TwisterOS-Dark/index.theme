@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=TwisterOS-Dark
+Comment=A modern flat dark theme based on the Numix Project
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=TwisterOS-Dark
+IconTheme=TwisterOS
+MetacityTheme=TwisterOS-Dark
+ButtonLayout=:minimize,maximize,close

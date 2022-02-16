@@ -1,0 +1,23 @@
+#pulseaudio-button * { -gtk-icon-transform: scale(.55); }
+#xfce4-power-manager-plugin * { -gtk-icon-transform: scale(.50); }
+#xfce4-notification-plugin * { -gtk-icon-transform: scale(.50); }
+
+#whiskermenu-window button:hover {
+    background-color: #505050;
+    color: #fff;
+}
+#whiskermenu-window button:checked {
+    background-color: #505050;
+    color: #fff;
+}
+
+.xfce4-panel.panel button.flat:hover, .xfce4-panel.panel button.sidebar-button:hover {
+    background-color: #505050;
+}
+.xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.sidebar-button:active {
+    background-image: url('/usr/share/themes/Windows-10-Dark/gtk-3.0/panel/item-active.svg');
+}
+.xfce4-panel.panel button.flat:checked, .xfce4-panel.panel button.sidebar-button:checked {
+    background-image: url('/usr/share/themes/Windows-10-Dark/gtk-3.0/panel/item-active.svg');
+}
+

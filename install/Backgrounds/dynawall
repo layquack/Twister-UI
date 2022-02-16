@@ -1,0 +1,4 @@
+#!/bin/bash
+sleep 60s
+python3 ${HOME}/Backgrounds/change_theme.py
+

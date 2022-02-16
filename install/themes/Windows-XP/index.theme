@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Windows-XP
+Comment=Windows XP theme for Linux
+Comment=Author : Christian Medel (Elbullazul)
+Version=rolling
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Windows-XP
+MetacityTheme=Windows-XP
+ButtonLayout=:minimize,maximize,close

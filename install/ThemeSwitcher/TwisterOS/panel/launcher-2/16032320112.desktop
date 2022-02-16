@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Software Manager
+Comment=Install new applications
+Exec=mintinstall
+Icon=mintinstall
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;System;Settings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+NotShowIn=KDE;
+X-XFCE-Source=file:///usr/share/applications/mintinstall.desktop

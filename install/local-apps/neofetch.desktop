@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Neofetch
+Categories=System;
+Exec=/usr/local/bin/nf-twister
+Icon=neofetch.png
+Terminal=true
+Type=Application

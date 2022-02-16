@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Windows 11 Dark
+Comment=Windows 11-inspired dark UI for Twister OS
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Windows-11-Dark
+MetacityTheme=Windows-11-Dark
+IconTheme=Windows-11-Dark
+CursorTheme=Win10
+ButtonLayout=menu:minimize,maximize,close

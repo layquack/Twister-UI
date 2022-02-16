@@ -1,0 +1,41 @@
+#pulseaudio-button * { -gtk-icon-transform: scale(.40); }
+#xfce4-power-manager-plugin * { -gtk-icon-transform: scale(.40); }
+#xfce4-notification-plugin * { -gtk-icon-transform: scale(.50); }
+#whiskermenu-button * { -gtk-icon-transform: scale(.90); }
+
+#whiskermenu-window button:hover {
+    background-color: #505050;
+    color: #fff;
+}
+#whiskermenu-window button:checked {
+    background-color: #505050;
+    color: #fff;
+}
+
+#whiskermenu-button:hover {
+    background-color: #464646;
+    color: #fff;
+}
+#whiskermenu-button:checked {
+    background-color: #686868;
+    color: #fff;
+}
+
+#clock-button:hover {
+    background-color: #464646;
+    color: #fff;
+}
+#clock-button:checked {
+    background-color: #686868;
+    color: #fff;
+}
+
+#pulseaudio-button:hover {
+    background-color: #464646;
+    color: #fff;
+}
+#pulseaudio-button:checked {
+    background-color: #686868;
+    color: #fff;
+}
+

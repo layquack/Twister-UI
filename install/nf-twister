@@ -1,0 +1,3 @@
+#!/bin/bash
+neofetch
+read -p "Press [Enter] to exit."
