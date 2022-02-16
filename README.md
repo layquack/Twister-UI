@@ -1,2 +1,2 @@
 # Twister-UI
-Twister UI for debain / Ubuntu aarch64
+Twister UI for Debian / Ubuntu aarch64
